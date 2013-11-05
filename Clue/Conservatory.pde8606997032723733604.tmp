@@ -1,0 +1,18 @@
+class Conservatory {
+  PImage cons = loadImage("conservatory.png");
+  int x, y;
+  PFont f; 
+ 
+  Kitchen(int x, int y, PFont f){
+    this.x=x;
+    this.y=y;
+    this.f=f;
+  }
+  
+  void display(){
+    image(kitchen,x,y);
+  }
+
+
+
+}
